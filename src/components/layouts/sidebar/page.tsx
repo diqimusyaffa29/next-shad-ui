@@ -28,13 +28,13 @@ const SideBar = () => {
                                 variant={"ghost"}
                                 className="w-full justify-start rounded-none text-black hover:text-red-700 lg:rounded-md">
                                 <LuBuilding className="mr-2 text-lg" />
-                                Company Profile
+                                Cabang Olahraga
                             </Button>
                             <Button
                                 variant={"ghost"}
                                 className="w-full justify-start rounded-none text-black hover:text-red-700 lg:rounded-md">
                                 <GoPerson className="mr-2 text-lg" />
-                                All Aplicants
+                                Atlit & Pelatih 
                             </Button>
                             <Button
                                 variant={"ghost"}

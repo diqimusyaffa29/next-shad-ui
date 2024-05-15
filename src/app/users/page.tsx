@@ -19,7 +19,7 @@ const UserPage = async () => {
     const data = await getUsers()
     return (
         <section className="py-10">
-            <div className="container">
+            <div className="">
                 <h1 className="text-3xl font-bold">All Users</h1>
                 <DataTable columns={columns} data={data} />
                 

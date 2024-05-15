@@ -18,10 +18,11 @@ async function getUsers(): Promise<User[]>{
 const UserPage = async () => {
     const data = await getUsers()
     return (
-        <section className="py-24">
+        <section className="py-10">
             <div className="container">
-                <h1 className="text-3xl font-bold">All User</h1>
+                <h1 className="text-3xl font-bold">All Users</h1>
                 <DataTable columns={columns} data={data} />
+                
             </div>
         </section>
     );
